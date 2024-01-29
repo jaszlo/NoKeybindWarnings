@@ -17,17 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"net.jasper.nokeybindwarnings.NoKeybindWarnings"
-		],
-		"client": [
-			"net.jasper.nokeybindwarnings.NoKeybindWarningsClient"
 		]
 	},
 	"mixins": [
-		"nokeybindwarnings.mixins.json",
-		{
-			"config": "nokeybindwarnings.client.mixins.json",
-			"environment": "client"
-		}
+		"nokeybindwarnings.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
