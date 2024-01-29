@@ -2,10 +2,12 @@
 	"required": true,
 	"package": "net.jasper.nokeybindwarnings.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
-	],
 	"injectors": {
 		"defaultRequire": 1
-	}
+	},
+	"client": [
+		"KeyBindEntryMixin",
+		"KeybindingScreenMixin",
+		"ScreenInvoker"
+	]
 }

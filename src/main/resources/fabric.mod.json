@@ -3,9 +3,9 @@
 	"id": "nokeybindwarnings",
 	"version": "${version}",
 	"name": "NoKeybindWarnings",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Allows to disable warnings about multiple assigned keys",
 	"authors": [
-		"Me!"
+		"Jaszlo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
